@@ -1,2 +1,2 @@
 # landing-page-project
-Repo for project from https://www.theodinproject.com/lessons/foundations-landing-page
+Repo for a [project](https://www.theodinproject.com/lessons/foundations-landing-page) from The Odin Project.  Objective: code a page that looks like supplied reference images ([one](landing-page-1.png), [two](landing-page-2.png)).
