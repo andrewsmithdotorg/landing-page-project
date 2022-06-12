@@ -1,10 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap');
+
 
 :root {
     --dark-blue: #1F2937;
     --main-text: #F9FAF8;
     --header-logo: #F9FAF8;
     --header-link: #E5E7EB;
+    --button: #3882F6;
 }
   
 body {
@@ -15,7 +17,8 @@ body {
 .header, .intro-panel {
     display: flex;
     background-color: var(--dark-blue);
-    padding: 0px 100px;
+    padding: 0px 200px;
+
 }
 
 .header {
@@ -28,32 +31,59 @@ body {
 .logo {
     color: var(--header-logo);
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 800;
 }
 
 ul {
     color: var(--header-link);
     display: flex;
     list-style: none;
-    gap: 16px;
+    font-size: 18px;
+    font-weight: 300;
+    gap: 20px;
 }
 
 .left-pane, .image-placeholder {
     flex: 1;
     justify-content: center;
-    margin: 100px 0px;
+    margin: 120px 0px;
 }
 
 .headline {
     color: var(--main-text);
-    font-weight: 800;
+    font-weight: 900;
     font-size: 48px;
+    margin: 0px;
+}
+
+.subtext {
+    color: var(--header-link);
+    font-size: 18px;
+    margin-top: 0px;
+    margin-right: 60px;
+
+}
+
+.intro-panel button {
+    background-color: var(--button);
+    color: var(--main-text);
+    align-items: center;
+    font-size: 18px;
+    padding: 8px 36px;
+    border: 0px;
+    border-radius: 8px;
+    font-weight: 400;
 }
 
 .image-placeholder {
     color: white;
-    background-color: darkgray;
-    height: 200px;
+    font-size: 18px;
+    background-color: #6d747d;
+    height: auto;
     display: flex;
     align-items: center;
+}
+
+.illustration-pane {
+    height: 1400px; /* currently just here to force the page to scroll */
 }
