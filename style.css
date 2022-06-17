@@ -92,6 +92,7 @@ ul {
 }
 
 .gallery-pane h1 {
+  color: var(--dark-blue);
   margin: 50px 0px;
   font-size: 36px;
   font-weight: 800;
@@ -133,6 +134,7 @@ ul {
 }
 
 .quote {
+  color: var(--dark-blue);
   font-size: 36px;
   font-style: italic;
   font-weight: 300;
