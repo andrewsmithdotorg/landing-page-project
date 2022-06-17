@@ -9,6 +9,10 @@
   --button: #3882f6;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0px;
   font-family: "Roboto", sans-serif;
@@ -127,7 +131,7 @@ ul {
 }
 
 .quote-container {
-  padding-top: 125px;
+  padding-top: 128px;
 }
 
 .quote {
@@ -144,5 +148,52 @@ ul {
 }
 
 .bottom-pane {
-  height: 1400px; /* currently just here to force the page to scroll */
+  display: flex;
+  justify-content: center;
+  height: 350px;
+}
+
+.call-to-action {
+  width: 100%;
+  margin: 100px 210px;
+  background-color: var(--button);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  gap: 170px;
+  align-items: center;
+}
+
+.cta-left {
+  color: white;
+  ackground-color: black;
+}
+
+.cta-left p {
+  margin-top: -20px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.sign-up {
+  color: white;
+  height: 37px;
+  background-color: var(--button);
+  font-size: 18px;
+  font-weight: old;
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+  border: solid white 2px;
+  border-radius: 8px;
+}
+
+.footer {
+  background-color: var(--dark-blue);
+  color: var(--header-link);
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
 }
