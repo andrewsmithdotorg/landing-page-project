@@ -2,11 +2,9 @@
 
 :root {
   --dark-blue: #1f2937;
-  --main-text: #f9faf8;
-  --header-logo: #f9faf8;
-  --header-link: #e5e7eb;
-  --quote-bg: #e5e7eb;
-  --button: #3882f6;
+  --near-white: #f9faf8;
+  --grey: #e5e7eb;
+  --med-blue: #3882f6;
 }
 
 * {
@@ -29,17 +27,17 @@ body {
   justify-content: space-between;
   align-items: center;
   margin: 0px;
-  color: var(--header-logo);
+  color: var(--near-white);
 }
 
 .logo {
-  color: var(--header-logo);
+  color: var(--near-white);
   font-size: 24px;
   font-weight: 800;
 }
 
 ul {
-  color: var(--header-link);
+  color: var(--grey);
   display: flex;
   list-style: none;
   font-size: 18px;
@@ -55,22 +53,22 @@ ul {
 }
 
 .headline {
-  color: var(--main-text);
+  color: var(--near-white);
   font-weight: 900;
   font-size: 48px;
   margin: 0px;
 }
 
 .subtext {
-  color: var(--header-link);
+  color: var(--grey);
   font-size: 18px;
   margin-top: 0px;
   margin-right: 60px;
 }
 
 .intro-pane button {
-  background-color: var(--button);
-  color: var(--main-text);
+  background-color: var(--med-blue);
+  color: var(--near-white);
   align-items: center;
   font-size: 18px;
   padding: 8px 36px;
@@ -115,7 +113,7 @@ ul {
 .gallery-ph {
   width: 160px;
   height: 160px;
-  border: 4px solid var(--button);
+  border: 4px solid var(--med-blue);
   border-radius: 18px;
 }
 
@@ -126,7 +124,7 @@ ul {
 }
 
 .quote-pane {
-  background-color: var(--quote-bg);
+  background-color: var(--grey);
   padding: 0px 300px 100px 345px; /* this feels a little jank but haven't found a way to match the line breaks with even margins*/
 }
 
@@ -156,7 +154,7 @@ ul {
 .call-to-action {
   width: 100%;
   margin: 100px 210px;
-  background-color: var(--button);
+  background-color: var(--med-blue);
   border-radius: 8px;
   display: flex;
   justify-content: center;
@@ -178,7 +176,7 @@ ul {
 .sign-up {
   color: white;
   height: 37px;
-  background-color: var(--button);
+  background-color: var(--med-blue);
   font-size: 18px;
   font-weight: old;
   padding: 0px 30px;
@@ -190,7 +188,7 @@ ul {
 
 .footer {
   background-color: var(--dark-blue);
-  color: var(--header-link);
+  color: var(--grey);
   height: 100px;
   display: flex;
   justify-content: center;
